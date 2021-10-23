@@ -12,7 +12,7 @@ class Gear
   end
 
   def ratio
-    chainring / cog.to_f
+    chainring / cog.to_f #インスタンス変数を直接参照しない。インスタンス変数をも隠蔽する
   end
 
   #ギアインチを計算できるメソッドを定義してみる
